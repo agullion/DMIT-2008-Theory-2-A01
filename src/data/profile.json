@@ -24,37 +24,16 @@
   },
   "intro": {
     "welcomeLabel": "welcome",
-    "name": "Gianmarco Cavallo",
-    "summary": "a software developer with strong focus on the user experience, animations and micro interactions",
+    "name": "Anthony Gullion",
+    "summary": "a software developer with strong focus on making technology as simple as possible, so it is accessible to all.",
     "socialButtons": [
       {
         "ariaLabel": "github profile",
         "screenReaderLabel": "GitHub Profile",
         "icon": "ri:github-fill",
-        "url": "https://github.com/Ladvace"
-      },
-      {
-        "ariaLabel": "linkedin profile",
-        "screenReaderLabel": "Linkedin Profile",
-        "icon": "ri:linkedin-box-fill",
-        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
-      },
-      {
-        "ariaLabel": "dribble profile",
-        "screenReaderLabel": "Dribble Profile",
-        "icon": "ri:dribbble-fill",
-        "url": "https://dribbble.com/Ladvace_Jace"
+        "url": "https://github.com/agullion"
       }
-    ],
-    "supportLink": {
-      "url": "https://ko-fi.com/M4M71O34X",
-      "imageSrc": "https://storage.ko-fi.com/cdn/kofi6.png?v=6",
-      "imageAlt": "Buy Me a Coffee at ko-fi.com"
-    },
-    "image": {
-      "src": "/me.webp",
-      "alt": "memoji of gianmarco"
-    }
+    ]
   },
   "about": {
     "title": "About me",
