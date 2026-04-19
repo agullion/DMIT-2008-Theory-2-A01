@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Anthony Gullion - Freelance front-end Developer",
-    "description": "I'm a developer Edmonton, passionate about user experience and specializing in making tech more accessible. My primary tools of choice include: JavaScript, React, C#, SQL, and Node.js.",
+    "title": "Gianmarco Cavallo - Freelance front-end Developer",
+    "description": "I'm a developer based in Italy, passionate about user experience and specializing in engaging animations and micro-interactions. My primary tools of choice include: JavaScript, React, Solid.js, Astro, Svelte, and Node.js.",
     "footer": {
       "year": "2026",
       "prefix": "Built on",
@@ -11,59 +11,85 @@
     }
   },
   "seo": {
-    "personName": "Anthony",
-    "jobTitle": "Freelance Developer",
+    "personName": "Gianmarco",
+    "jobTitle": "Freelance Frontend Developer",
     "worksFor": "Self-Employed",
-    "location": "Canada",
-    "countryCode": "CA",
-    "nationality": "Indigenous",
-    "publisherName": "Anthony",
+    "location": "Italy",
+    "countryCode": "IT",
+    "nationality": "Italy",
+    "publisherName": "Gianmarco",
     "sameAs": [
-      "https://github.com/agullion"
+      "https://www.linkedin.com/in/gianmarco-cavallo/",
+      "https://github.com/Ladvace"
     ]
   },
   "intro": {
     "welcomeLabel": "welcome",
-    "name": "Anthony Gullion",
-    "summary": "a software developer with strong focus on making technology as simple as possible, so it is accessible to all.",
+    "name": "Gianmarco Cavallo",
+    "summary": "a software developer with strong focus on the user experience, animations and micro interactions",
     "socialButtons": [
       {
         "ariaLabel": "github profile",
         "screenReaderLabel": "GitHub Profile",
         "icon": "ri:github-fill",
-        "url": "https://github.com/agullion"
+        "url": "https://github.com/Ladvace"
+      },
+      {
+        "ariaLabel": "linkedin profile",
+        "screenReaderLabel": "Linkedin Profile",
+        "icon": "ri:linkedin-box-fill",
+        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
+      },
+      {
+        "ariaLabel": "dribble profile",
+        "screenReaderLabel": "Dribble Profile",
+        "icon": "ri:dribbble-fill",
+        "url": "https://dribbble.com/Ladvace_Jace"
       }
-    ]
+    ],
+    "supportLink": {
+      "url": "https://ko-fi.com/M4M71O34X",
+      "imageSrc": "https://storage.ko-fi.com/cdn/kofi6.png?v=6",
+      "imageAlt": "Buy Me a Coffee at ko-fi.com"
+    },
+    "image": {
+      "src": "/me.webp",
+      "alt": "memoji of gianmarco"
+    }
   },
   "about": {
     "title": "About me",
-    "intro": "Hi, I'm Anthony, a front-end software developer from Italy.",
+    "intro": "Hi, I'm Gianmarco, a front-end software developer from Italy.",
     "toolsIntro": "My primary tools of choice includes:",
     "tools": [
       "JavaScript",
       "React",
-      "C#",
-      "Blazor/MudBlazor",
-      "SQL",
+      "Solidjs",
+      "Astro",
+      "Svelte",
       "Nodejs"
     ],
-    "passion": "Beyond coding, I'm passionate about games, driving, and spending time with those close to me. An unusual hobby of mine is beadwork, I don't have much time for it nowadays but I really enjoy beading earrings.",
+    "passion": "Beyond coding, I'm passionate about design, illustration, animation and 3D modelling and traveling. An unusual hobby of mine is collecting vintage passports, they're interesting pieces of history to me.",
     "approach": "While I have some preferred tools, I always choose the best one for the job, even if it's not on my usual list. My goal is to find the right solution for each project."
   },
   "contacts": {
     "title": "Let's start working together!",
     "contactDetailsTitle": "Contact Details",
-    "email": "froggosribbit@gmail.com",
-    "location": "Canada",
+    "email": "contact@gianmarcocavallo.com",
+    "location": "Italy",
     "socialsTitle": "Socials",
     "socialLinks": [
       {
+        "label": "Linkedin",
+        "url": "https://www.linkedin.com/in/gianmarco-cavallo/"
+      },
+      {
         "label": "Github",
-        "url": "https://github.com/agullion"
+        "url": "https://github.com/Ladvace"
       },
       {
         "label": "Discord",
-        "url": "https://discordapp.com/users/LaFrog"
+        "url": "https://discordapp.com/users/163300027618295808"
       }
     ]
   },

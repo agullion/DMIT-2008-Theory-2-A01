@@ -1,0 +1,93 @@
+{
+  "site": {
+    "title": "Anthony Gullion - Freelance front-end Developer",
+    "description": "I'm a developer Edmonton, passionate about user experience and specializing in making tech more accessible. My primary tools of choice include: JavaScript, React, C#, SQL, and Node.js.",
+    "footer": {
+      "year": "2026",
+      "prefix": "Built on",
+      "frameworkName": "React",
+      "frameworkUrl": "https://react.dev/",
+      "author": "AI under the guidance of DanG-IT Professional"
+    }
+  },
+  "seo": {
+    "personName": "Anthony",
+    "jobTitle": "Freelance Developer",
+    "worksFor": "Self-Employed",
+    "location": "Canada",
+    "countryCode": "CA",
+    "nationality": "Indigenous",
+    "publisherName": "Anthony",
+    "sameAs": [
+      "https://github.com/agullion"
+    ]
+  },
+  "intro": {
+    "welcomeLabel": "welcome",
+    "name": "Anthony Gullion",
+    "summary": "a software developer with strong focus on making technology as simple as possible, so it is accessible to all.",
+    "socialButtons": [
+      {
+        "ariaLabel": "github profile",
+        "screenReaderLabel": "GitHub Profile",
+        "icon": "ri:github-fill",
+        "url": "https://github.com/agullion"
+      }
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "intro": "Hi, I'm Anthony, a front-end software developer from Italy.",
+    "toolsIntro": "My primary tools of choice includes:",
+    "tools": [
+      "JavaScript",
+      "React",
+      "C#",
+      "Blazor/MudBlazor",
+      "SQL",
+      "Nodejs"
+    ],
+    "passion": "Beyond coding, I'm passionate about games, driving, and spending time with those close to me. An unusual hobby of mine is beadwork, I don't have much time for it nowadays but I really enjoy beading earrings.",
+    "approach": "While I have some preferred tools, I always choose the best one for the job, even if it's not on my usual list. My goal is to find the right solution for each project."
+  },
+  "contacts": {
+    "title": "Let's start working together!",
+    "contactDetailsTitle": "Contact Details",
+    "email": "froggosribbit@gmail.com",
+    "location": "Canada",
+    "socialsTitle": "Socials",
+    "socialLinks": [
+      {
+        "label": "Github",
+        "url": "https://github.com/agullion"
+      },
+      {
+        "label": "Discord",
+        "url": "https://discordapp.com/users/LaFrog"
+      }
+    ]
+  },
+  "timeZone": {
+    "title": "Time zone",
+    "zone": "America/Edmonton"
+  },
+  "now": {
+    "title": "Now",
+    "helpLabel": "what's that ?",
+    "helpUrl": "https://sive.rs/nowff",
+    "status": "Currently working fulltime"
+  },
+  "sections": {
+    "schoolAssignment": {
+      "title": "DMIT-2008 Theory 2",
+      "href": "https://www.nait.ca/nait/marketing/new-media-and-it-programs",
+      "target": "_blank",
+      "placeholder": "Final Graduating Class"
+    },
+    "comingSoon": {
+      "title": "Coming Soon",
+      "message": "This area is reserved for a new component that is currently being designed.",
+      "cta": "Design in progress"
+    }
+  }
+}
