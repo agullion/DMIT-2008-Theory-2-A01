@@ -10,9 +10,7 @@ export default function IntroCard({ intro }) {
         welcomeLabel,
         name,
         summary,
-        socialButtons = [],
-        supportLink,
-        image,
+        socialButtons = []
     } = intro;
 
     return <Card colSpan="md:col-span-3" rowSpan="md:row-span-5 lg:row-span-5" height="md:min-h-[360px] lg:min-h-[380px]">
@@ -45,24 +43,8 @@ export default function IntroCard({ intro }) {
                             <span className="sr-only">Easter egg button</span>
                         </Button>
                     </Tooltip>
-                    <a href={supportLink.url} rel="noreferrer" target="_blank"
-                    ><Image
-                            height={36}
-                            style={{ border: 0, height: 36 }}
-                            src={supportLink.imageSrc}
-                            alt={supportLink.imageAlt}
-                            width={127}
-                        /></a
-                    >
                 </div>
             </div>
-            <Image
-                alt={image.alt}
-                className="w-auto h-[240px] md:h-[300px] lg:h-[300px] md:self-end select-none absolute right-[-110px] bottom-0 z-[-1] opacity-50 md:opacity-100 md:relative md:right-auto md:bottom-auto md:z-auto pointer-events-none"
-                height={300}
-                src={image.src}
-                width={300}
-            />
         </div>
     </Card>
 }
