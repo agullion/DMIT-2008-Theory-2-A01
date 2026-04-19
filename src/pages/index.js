@@ -8,11 +8,9 @@ import AboutMe from "../components/AboutMe";
 import Now from "../components/Now";
 import ContentPlaceholder from "../components/ContentPlaceholder";
 import profileData from "@/data/profile.json";
-import getAbout from '@/pages/api/about.js'
 // import Globe from "../components/Globe";
 
 export default function Home() {
-  const about = getAbout();
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       return;
@@ -62,7 +60,6 @@ export default function Home() {
       animations.forEach((animation) => animation.cancel());
       unlockOverflow();
     };
-    
   }, []);
 
   return (
@@ -75,7 +72,7 @@ export default function Home() {
         className="text-white m-auto p-2 grid gap-2 max-w-6xl relative w-full sm:p-4 sm:gap-2 md:grid-cols-[1fr_1fr_0.9fr] md:gap-3 md:p-6 lg:grid-cols-4 lg:gap-4"
       >
         <IntroCard intro={profileData.intro} />
-        <AboutMe about={about} /> 
+        <AboutMe about={profileData.about} />
         <ContactsCard contacts={profileData.contacts} />
         <TimeZone timeZone={profileData.timeZone} />
         <Now nowInfo={profileData.now} />
