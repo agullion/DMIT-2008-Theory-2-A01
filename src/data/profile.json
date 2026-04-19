@@ -33,7 +33,16 @@
         "icon": "ri:github-fill",
         "url": "https://github.com/agullion"
       }
-    ]
+    ],
+    "supportLink": {
+      "url": "https://ko-fi.com/M4M71O34X",
+      "imageSrc": "https://storage.ko-fi.com/cdn/kofi6.png?v=6",
+      "imageAlt": "Buy Me a Coffee at ko-fi.com"
+    },
+    "image": {
+      "src": "/me.webp",
+      "alt": "memoji of gianmarco"
+    }
   },
   "about": {
     "title": "About me",
