@@ -15,16 +15,16 @@ import {getWeather} from '@/pages/api/weather.js';
 export default function Home() {
   const [weather, setWeather] = useState(null);
 
-  const fetchWeather = async () => {
-    try {
-      const data = await getWeather(profileData.weather.location);
-      setWeather(data);
-    } catch (error) {
-      console.error('Error fetching weather:', error);
-    }
-  };
+  // const fetchWeather = async () => {
+  //   try {
+  //     const data = await getWeather(profileData.weather.location);
+  //     setWeather(data);
+  //   } catch (error) {
+  //     console.error('Error fetching weather:', error);
+  //   }
+  // };
 
-  fetchWeather();
+  // fetchWeather();
 
   useEffect(() => {
 
@@ -99,7 +99,7 @@ export default function Home() {
             <p className='text-xs font-light text-neutral-200'>{profileData.sections.schoolAssignment.placeholder}</p>
           </div>
         </Card>
-        <WeatherCard weather={weather} />
+        {/* <WeatherCard weather={weather} /> */}
         <Card colSpan='md:col-span-1' rowSpan='md:row-span-1'>
           <div className='relative min-h-[44px] overflow-hidden'>
             <footer className='absolute inset-0 text-xs opacity-100 translate-y-0 transition-all duration-300 ease-out group-hover:-translate-y-3 group-hover:opacity-0 group-focus-within:-translate-y-3 group-focus-within:opacity-0'>
