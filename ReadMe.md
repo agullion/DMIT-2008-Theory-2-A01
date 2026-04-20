@@ -1,6 +1,6 @@
 # Theory 2
 
-> Student Name: Anthony Gullion
+> Student Name: Anthony Gullion | agullion
 
 ![Website Screenshot](./docs/images/screenshot.png)
 
