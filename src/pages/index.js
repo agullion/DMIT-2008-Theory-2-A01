@@ -9,25 +9,20 @@ import Now from '../components/Now';
 import ContentPlaceholder from '../components/ContentPlaceholder';
 import profileData from '@/data/profile.json';
 import WeatherCard from '@/components/WeatherCard';
-import {getWeather} from '@/pages/api/weather.js';
+import { getWeatherForProfile } from '@/lib/weather';
 // import Globe from "../components/Globe";
 
-export default function Home() {
-  const [weather, setWeather] = useState(null);
+export async function getServerSideProps() {
+  const weather = await getWeatherForProfile(
+    profileData,
+    process.env.OPENWEATHER_API_KEY
+  )
 
-  // const fetchWeather = async () => {
-  //   try {
-  //     const data = await getWeather(profileData.weather.location);
-  //     setWeather(data);
-  //   } catch (error) {
-  //     console.error('Error fetching weather:', error);
-  //   }
-  // };
+  return { props: {weather}}
+}
 
-  // fetchWeather();
-
+export default function Home({ weather}) {
   useEffect(() => {
-
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       return;
     }
@@ -99,7 +94,7 @@ export default function Home() {
             <p className='text-xs font-light text-neutral-200'>{profileData.sections.schoolAssignment.placeholder}</p>
           </div>
         </Card>
-        {/* <WeatherCard weather={weather} /> */}
+        <WeatherCard weather={weather} />
         <Card colSpan='md:col-span-1' rowSpan='md:row-span-1'>
           <div className='relative min-h-[44px] overflow-hidden'>
             <footer className='absolute inset-0 text-xs opacity-100 translate-y-0 transition-all duration-300 ease-out group-hover:-translate-y-3 group-hover:opacity-0 group-focus-within:-translate-y-3 group-focus-within:opacity-0'>
