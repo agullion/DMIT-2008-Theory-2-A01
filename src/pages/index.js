@@ -9,7 +9,7 @@ import Now from '../components/Now';
 import ContentPlaceholder from '../components/ContentPlaceholder';
 import profileData from '@/data/profile.json';
 import WeatherCard from '@/components/WeatherCard';
-import getWeather from '@/pages/api/weather.js';
+import {getWeather} from '@/pages/api/weather.js';
 // import Globe from "../components/Globe";
 
 export default function Home() {
