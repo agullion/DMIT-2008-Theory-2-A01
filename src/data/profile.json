@@ -89,5 +89,10 @@
       "message": "This area is reserved for a new component that is currently being designed.",
       "cta": "Design in progress"
     }
+  },
+  "weather": {
+    "location": "Edmonton",
+    "lat": "53.5462055",
+    "lon": "-113.491241"
   }
 }

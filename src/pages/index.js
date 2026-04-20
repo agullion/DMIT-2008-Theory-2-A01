@@ -17,7 +17,7 @@ export default function Home() {
 
   const fetchWeather = async () => {
     try {
-      const data = await getWeather();
+      const data = await getWeather(profileData.weather.lat, profileData.weather.lon);
       setWeather(data);
     } catch (error) {
       console.error('Error fetching weather:', error);
